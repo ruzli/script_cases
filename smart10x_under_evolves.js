@@ -10,7 +10,8 @@ simulation_balance = 100000
 ex.increase_basebet_after_streak = -1
 ex.increase_basebet_on_wins = 100
 ex.increase_basebet_times = 100
-game_array.push(new Strategy(10, 300, 15, 7, 1.2, true));game_array[ 0 ].target = 10
+game_array.push(new Strategy(10, 300, 15, 7, 1.2, true));
+game_array[ 0 ].target = 10
 game_array[ 0 ].basebet = 300
 game_array[ 0 ].basebet_default = 300
 game_array[ 0 ].bet = 300
